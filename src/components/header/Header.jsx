@@ -3,18 +3,14 @@ import './header.css'
 
 const Header = () => {
   return (
-    <nav className='navbar'>
-      <div className="nav">
-        <img src='images/logo-png.png' alt='PlantNig' className='brand-logo'/>
-        <div className="nav-items">
-          <div className="search">
-            <input type='text' className='search-box' placeholder='search genus, family'/>
-            <button className='search-btn'>search</button>
-          </div>
+    <header className='hero-section'>
+      <div className='content'>
+        <div className="">
+          <img src='images/logo-transparent-png.png' className='logo' alt='logo' />
+          <p className='sub-heading'>Nigeria plants </p>
         </div>
       </div>
-      
-    </nav>
+    </header>
   )
 }
 
